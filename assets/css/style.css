@@ -299,7 +299,7 @@ a.theme {width: 56px;height: 56px;display: flex;align-items: center;justify-cont
 
 /*================ Home Page Start ============== */
 
-.side_nav {display: flex;justify-content: space-between;margin-top: 100px;width: 96%;position: fixed;left: 2%;z-index: 99;}
+.side_nav {display: flex;justify-content: space-between;margin-top: 100px;position: fixed;left: 2%;z-index: 99999;}
 
 body.hp .side_nav {
     width: max-content;
@@ -326,6 +326,7 @@ ul.menu li a {
     border-radius: 16px;
     margin-bottom: 5px;
     position: relative;
+    z-index: 999999;
 }
 
 ul.menu li:hover span {
@@ -342,8 +343,8 @@ ul.menu li a:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), #111337;
 }
 
-ul.menu li span {opacity: 0;visibility: hidden;position: absolute;left: 75px;width: max-content;display: block;font-size: 12px;margin-top: -43px;padding: 8px 16px;background: var(--thmColor);border-radius: 12px;transition: opacity .3s;z-index: 9999;}
-ul.time {padding-top: 5px;padding-bottom: 10px;}
+ul.menu li span {opacity: 0;visibility: hidden;position: absolute;left: 75px;width: max-content;display: block;font-size: 12px;margin-top: -43px;padding: 8px 16px;background: var(--thmColor);border-radius: 12px;transition: opacity .3s;z-index: 9999999;}
+ul.time {padding-top: 5px;padding-bottom: 10px;position: fixed;right: 2%;}
 
 ul.time li span {
     font-size: 12px;
@@ -373,7 +374,7 @@ ul.time li {
     justify-content: center;
     align-items: center;
 }
-.mid {max-width: 880px;margin: auto;position: relative;z-index: 99;margin-top: 100px;}
+.mid {max-width: 880px;margin: auto;position: relative;z-index: 9;margin-top: 100px;}
 
 section.mid.help {
     display: flex;
