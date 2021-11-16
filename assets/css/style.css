@@ -342,7 +342,7 @@ ul.menu li a:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), #111337;
 }
 
-ul.menu li span {opacity: 0;visibility: hidden;position: absolute;left: 75px;width: max-content;display: block;font-size: 12px;margin-top: -43px;padding: 8px 16px;background: var(--thmColor);border-radius: 12px;transition: opacity .3s;}
+ul.menu li span {opacity: 0;visibility: hidden;position: absolute;left: 75px;width: max-content;display: block;font-size: 12px;margin-top: -43px;padding: 8px 16px;background: var(--thmColor);border-radius: 12px;transition: opacity .3s;z-index: 9999;}
 ul.time {padding-top: 5px;padding-bottom: 10px;}
 
 ul.time li span {
