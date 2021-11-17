@@ -413,6 +413,10 @@ body.change a.mobile span {
     visibility: visible;
 }
 
+ul.menu li span {
+    left: 55px;
+}
+
 #customers td, #customers th{
     padding-left: 20px;
     font-size: 14px;
